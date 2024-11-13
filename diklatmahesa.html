@@ -1,0 +1,23 @@
+<!-- FUNCTION INVOCATION -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konversi Suhu</title>
+</head>
+<body>
+
+<h2>Konversi Suhu dari Fahrenheit ke Celsius</h2>
+<p id="demo"></p>
+
+<script>
+    function toCelsius(f) {
+        return (5/9) * (f - 32);
+    }
+
+    let value = toCelsius(77);
+    document.getElementById("demo").innerHTML = value;
+</script>
+
+</body>
+</html>
